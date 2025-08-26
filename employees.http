@@ -1,0 +1,29 @@
+### List employees
+GET http://localhost:8000/api/employees
+
+### Status
+GET http://localhost:8000/api/status
+
+### Create employee
+POST http://localhost:8000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Jack Smith"
+}
+
+### Create employee with empty name
+POST http://localhost:8000/api/employees
+Content-Type: application/json
+
+{
+    "name": ""
+}
+
+### Create employee with long name
+POST http://localhost:8000/api/employees
+Content-Type: application/json
+
+{
+    "name": "123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"
+}
