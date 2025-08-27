@@ -1,5 +1,29 @@
 # Employees backend application
 
+## Tematika
+
+- REST API
+- The Twelve-Factor App
+- FastAPI
+- OpenAPI
+- REST client, requests
+- Konténerizáció, Docker
+- Konfigurációkezelés
+- Naplózás
+
+## Előfeltételek
+
+- Python
+  - Ellenőrzése: `python --version`
+- Git
+  - Ellenőrzése: `git --version`
+- Visual Studio Code, lehetőség extensionök telepítésére
+- Podman
+  - Ellenőrzése: `podman run hello-world`
+- Publikus GitHub regisztráció
+
+## Lépések
+
 Adatbázis elindítása:
 
 - Podman esetén a `docker` helyett `podman` szót kell írni.
